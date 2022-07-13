@@ -1,67 +1,70 @@
-# AI-Enabled FinTech B2B Invoice Management Application
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
+In the project directory, you can run:
 
+### `npm start`
 
-## Introduction to B2B Operations
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The B2B world operates differently from the B2C or C2C world. Businesses work with other businesses on credit. When a buyer business orders goods from the seller business, the seller business issues an invoice for the same. This invoice for the goods contains various information like the details of the goods purchased and when it should be paid. This is known in accounting terminology as “Accounts Receivable”
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
----
-## Problem Statement
+### `npm test`
 
-- In the ideal world, the buyer business should payback within the stipulated time (i.e. the Payment Term). However, in the real world, the buyer business seldom pays within their established time frame, and this is where the Account receivables Department comes into picture.
-- Every business consists of a dedicated Account receivables Department to collect and track payment of invoices.
-- It consists of a Account receivables team that is responsible for:
-    - Collecting payments from customers for their past due invoices.
-    - Sending reminders and follow ups to the customers for payments to be made.
-    - Looking after the entire process of getting the cash inflow.
-    - Help the company get paid for the services and products supplied.
-- Build a Machine Learning Model to predict the payment date of an invoice when it gets created in the system.
-- Build a full stack Invoice Management Application
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
----
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Features
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- Machine Learning Model to predict the payment date of an invoice when it gets created in the system.
-- A Receivables Dashboard to visualize data in the form of grids.
-- ADD, EDIT and DELETE functionalities.
-- Easy naviagtion implemented through pagination.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
----
+### `npm run eject`
 
-## Technologies Used
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### Machine Learning
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- **Pandas**
-- **Numpy**
-- **Matplotlib**
-- **Scikit-learn**
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### Frontend
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-- **HTML**
-- **CSS**
-- **JavaScript**
-- **React**
+## Learn More
 
-### Backend
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- **Java**
-- **Servlets**
-- **JDBC**
-- **JSP**
-- **MySQL**
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Tools
+### Code Splitting
 
-- **Eclipse IDE**
-- **TomCat Server**
-- **Postman API Testing Tools**
-- **SQL Yog**
-- **Jupyter Notebook**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
